@@ -16,7 +16,7 @@ a {
 }
 
 .header {
-    background: #012243;
+    background: #6814d6;
     padding-inline: 16px;
 }
 
@@ -62,15 +62,12 @@ i {
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-
 }
 
 .wrapper {
-
     
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    
+    grid-template-columns: repeat(3, 1fr);    
     grid-column-gap: 1rem;
     grid-row-gap: 20px;
     
@@ -79,6 +76,7 @@ i {
 .wrapper .item {
 
     border: 2px solid #012243;
+    cursor: pointer;
 }
 
 .wrapper .item img {
@@ -90,6 +88,7 @@ i {
 .wrapper .item img:hover {
 
     transform: scale(1.1);
+    box-shadow: 0px 0px 0px 2px #373737cc;
 }
 
 .wrapper .item p {
@@ -104,7 +103,7 @@ i {
     font-size: 20px;
     margin-bottom: 5px;
     border-radius: 5px;
-    background-color: #1475d6;
+    background-color: #6814d6;
     color: #ffff;
     cursor: pointer;
     transition: background-color 0.4s ease-out;
