@@ -47,6 +47,12 @@ i {
     padding-block: 16px;
 }
 
+.header.nav.btn-aluno {
+
+    width: 170px;
+    height: auto;
+}
+
 .conteudo {
 
     flex: 1 0 auto;

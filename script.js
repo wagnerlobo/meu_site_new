@@ -1,4 +1,4 @@
-function modal() {
+function loginAluno() {
 
-    alert("Você irá passar")
+    window.location.href = "area.html"
 }
