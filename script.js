@@ -7,3 +7,4 @@ function register() {
 
     window.location.href = "pages/register/register.html"
 }
+
