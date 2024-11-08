@@ -21,6 +21,7 @@ a {
 }
 
 .nav { 
+   
     max-width: 1280px;
     height: 70px;
     margin-inline: auto;
@@ -45,12 +46,56 @@ i {
     font-size: 18px;
     color: #ffff;
     padding-block: 16px;
+    display: flex;
+    transition: ease-in-out .5S;
+}
+
+ a:hover  {
+
+   color: #000000; 
 }
 
 .header.nav.btn-aluno {
 
     width: 170px;
     height: auto;
+}
+
+.about {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .content {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about .content img {
+
+    width: 450px;
+    margin: 15px;
+}
+
+.about .content h1 {
+
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+    
+}
+
+.about .content p {
+
+    font-size: 1rem;
+    width: 95%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
 }
 
 .conteudo {
